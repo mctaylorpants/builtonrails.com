@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<ul>
+  {% for app in site.data.apps.featured %}
+    <li>
+      {{ app.name }} ({{ app.url }})
+    </li>
+  {% endfor %}
+</ul>
+
+<hr>
+
+<ul>
+  {% assign other_sorted = (site.data.apps.other | sort: 'name') %}
+  {% for app in other_sorted %}
+    <li>
+      {{ app.name }} ({{ app.url }})
+    </li>
+  {% endfor %}
+</ul>

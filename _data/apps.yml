@@ -1,0 +1,22 @@
+featured:
+  # apps in here will show in order
+  - name: Kickstarter
+    url: kickstarter.com
+    logo_url: logo.png
+    description: "Goes here"
+
+other:
+  # apps in here will be shown in alphabetical order
+  - name: Unbounce
+    url: unbounce.com
+    logo_url: logo.png
+    description: "Goes here"
+    avg_requests_per_minute: 5_000
+
+  - name: GitHub
+    url: github.com
+    logo_url: logo.png
+    description: "Blarg"
+    avg_requests_per_minute: 10_000
+
+
