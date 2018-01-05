@@ -19,4 +19,7 @@ other:
     description: "Blarg"
     avg_requests_per_minute: 10_000
 
+  - name: Intercom
+    url: intercom.io
+
 
