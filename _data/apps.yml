@@ -1,25 +1,65 @@
 featured:
   # apps in here will show in order
+
   - name: Kickstarter
-    url: kickstarter.com
+    url: https://kickstarter.com
     logo_url: logo.png
-    description: "Goes here"
+    rails_info:
+      description: All of Kickstarter runs on a single Rails monolith.
 
 other:
   # apps in here will be shown in alphabetical order
-  - name: Unbounce
-    url: unbounce.com
+
+  - name: Basecamp
+    url: https://basecamp.com/
     logo_url: logo.png
-    description: "Goes here"
-    avg_requests_per_minute: 5_000
+    business_description: >
+      Basecamp organizes your communication, projects, and client
+      work together so you have a central source of truth.
+    rails_info:
+      description: All of Basecamp runs on a single Rails monolith.
+
+  - name: Shopify
+    url: https://shopify.com
+    business_description: >
+      The ecommerce platform made for you. Whether you sell online, on
+      social media, in store, or out of the trunk of your car, Shopify
+      has you covered.
+    rails_info:
+      version: 5
+      description: >
+        Shopify's core application is built on Rails.
+
+  - name: Unbounce
+    url: https://unbounce.com
+    logo_url: logo.png
+    business_description: >
+      Build landing pages fast, get more conversions. Unbounce gives
+      you the tools to not only build custom landing pages, but also
+      get more conversions on your website.
+    rails_info:
+      version: 4.2.8
+      description: >
+        Used for the customer portal and backoffice management.
 
   - name: GitHub
-    url: github.com
+    url: https://github.com
     logo_url: logo.png
-    description: "Blarg"
-    avg_requests_per_minute: 10_000
+    business_description: >
+      GitHub is a development platform inspired by the way you work.
+      From open source to business, you can host and review code, manage
+      projects, and build software alongside millions of other developers.
+    rails_info:
+      description: >
+        GitHub's primary application runs on Rails.
 
   - name: Intercom
-    url: intercom.io
-
-
+    url: https://intercom.io
+    description: >
+      A new and better way to acquire, engage and retain customers.
+      Modern products for sales, marketing and support to connect with
+      customers and help you grow faster.
+    rails_info:
+      description: >
+        The core Intercom product is a Ruby on Rails application with an
+        Ember.js frontend.

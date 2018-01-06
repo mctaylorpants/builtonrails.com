@@ -5,7 +5,9 @@ layout: default
 <ul>
   {% for app in site.data.apps.featured %}
     <li>
-      {{ app.name }} ({{ app.url }})
+      <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
+      <p>{{ app.business_description }}</p>
+      <p>{{ app.rails_info.description }}</p>
     </li>
   {% endfor %}
 </ul>
@@ -16,7 +18,9 @@ layout: default
   {% assign other_sorted = site.data.apps.other | sort: 'name' %}
   {% for app in other_sorted %}
     <li>
-      {{ app.name }} ({{ app.url }})
+      <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
+      <p>{{ app.business_description }}</p>
+      <p>{{ app.rails_info.description }}</p>
     </li>
   {% endfor %}
 </ul>
