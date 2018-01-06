@@ -21,6 +21,9 @@ layout: default
       <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
       <p>{{ app.business_description }}</p>
       <p>{{ app.rails_info.description }}</p>
+      {% if app.rails_info.version %}
+        Rails version: {{ app.rails_info.version}}
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
