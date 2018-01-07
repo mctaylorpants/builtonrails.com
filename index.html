@@ -6,7 +6,10 @@ layout: default
 {% for app in other_sorted %}
   <article class="media">
     <figure class="media-left">
-      <p class="image is-64x64">
+      <p class="image is-64x64 is-hidden-tablet">
+        <img src="https://bulma.io/images/placeholders/128x128.png">
+      </p>
+      <p class="image is-128x128 is-hidden-mobile">
         <img src="https://bulma.io/images/placeholders/128x128.png">
       </p>
     </figure>
@@ -14,6 +17,7 @@ layout: default
       <div class="content">
         <p>
           <strong><a href="{{ app.url }}">{{ app.name }}</a></strong>
+          <small>uses Rails</small>
         </p>
         <p>
           <em>{{ app.business_description }}</em>

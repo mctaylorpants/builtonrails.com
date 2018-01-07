@@ -55,7 +55,7 @@ other:
 
   - name: Intercom
     url: https://intercom.io
-    description: >
+    business_description: >
       A new and better way to acquire, engage and retain customers.
       Modern products for sales, marketing and support to connect with
       customers and help you grow faster.
