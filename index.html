@@ -2,28 +2,27 @@
 layout: default
 ---
 
-<ul>
-  {% for app in site.data.apps.featured %}
-    <li>
-      <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
-      <p>{{ app.business_description }}</p>
-      <p>{{ app.rails_info.description }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% assign other_sorted = site.data.apps.other | sort: 'name' %}
+{% for app in other_sorted %}
+  <article class="media">
+    <figure class="media-left">
+      <p class="image is-64x64">
+        <img src="https://bulma.io/images/placeholders/128x128.png">
+      </p>
+    </figure>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong><a href="{{ app.url }}">{{ app.name }}</a></strong>
+        </p>
+        <p>
+          <em>{{ app.business_description }}</em>
+        </p>
+        <p>
+          {{ app.rails_info.description }}
+        </p>
+      </div>
+    </div>
+  </article>
+{% endfor %}
 
-<hr>
-
-<ul>
-  {% assign other_sorted = site.data.apps.other | sort: 'name' %}
-  {% for app in other_sorted %}
-    <li>
-      <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
-      <p>{{ app.business_description }}</p>
-      <p>{{ app.rails_info.description }}</p>
-      {% if app.rails_info.version %}
-        Rails version: {{ app.rails_info.version}}
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>

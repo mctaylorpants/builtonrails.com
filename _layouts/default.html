@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Built on Rails</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
   </head>
   <body>
-    {{ content }}
+  <section class="section">
+    <div class="container">
+      <nav class="level">
+        <h1 class="title is-1">Built on Rails</h1>
+        <p class="subtitle is-6">Powering sites you love</p>
+      </nav>
+      {{ content }}
+    </div>
+  </section>
+  <section class="section">
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p><a href="https://github.com/alextaylor000/builtonrails.com/pulls">Submit a site</a></p>
+          <hr>
+          <p>
+            Made with
+            <span class="icon is-small"><i class="fa fa-heart"></i></span>
+            by
+            <a href="https://twitter.com/mctaylorpants">@mctaylorpants</a>
+          </p>
+          <p>
+            Powered by
+            <a href="https://jekyllrb.com/">jekyll</a>
+            and
+            <a href="http://surge.sh/">Surge</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </section>
   </body>
 </html>
