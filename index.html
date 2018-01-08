@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% assign other_sorted = site.data.apps.other | sort: 'name' %}
-{% for app in other_sorted %}
+{% assign apps = site.data.apps | where_exp: "app", "app.featured == nil" | sort: 'name' %}
+{% for app in apps %}
   <article class="media">
     <figure class="media-left">
       <p class="image is-64x64 is-hidden-tablet">
