@@ -1,0 +1,42 @@
+---
+---
+
+$text-gray: rgba(158, 158, 158, 1);
+$text-blue: rgba(8, 170, 206, 1);
+$text-hover: rgba(10, 211, 255, 1);
+$red: rgba(195, 151, 159, 1);
+
+a {
+  color: $text-blue;
+}
+
+a:hover {
+  color: $text-hover;
+}
+
+.red {
+  color: $red;
+}
+
+.text-gray {
+  color: $text-gray;
+}
+
+.hero-style {
+  color: white;
+  background-color: $text-hover;
+
+  h2 {
+    color: white;
+  }
+
+  a {
+    color: rgba(67, 101, 103, 1);
+  }
+}
+
+.navbar-style {
+  padding-bottom: 0.45em;
+  border-bottom: 1px solid rgba(219,219,219,.5);
+}
+

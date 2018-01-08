@@ -17,10 +17,13 @@ layout: default
       <div class="content">
         <p>
           <strong><a href="{{ app.url }}">{{ app.name }}</a></strong>
-          <small>uses Rails</small>
-          {% if app.rails_info.version %}
-            <small>{{ app.rails_info.version }}</small>
-          {% endif %}
+          <small class="text-gray">
+            uses Rails
+
+            {% if app.rails_info.version %}
+              {{ app.rails_info.version }}
+            {% endif %}
+          </small>
         </p>
         <p>
           <em>{{ app.business_description }}</em>

@@ -25,12 +25,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 exclude:
   - README.md
-  - serve.sh
-  - deploy.sh
+  - scripts/
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
