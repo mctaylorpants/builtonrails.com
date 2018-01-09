@@ -4,6 +4,11 @@
   featured: true
   url: https://kickstarter.com
   logo_url: https://pbs.twimg.com/profile_images/930810738343600128/SjHF8zs2_400x400.jpg
+  business_description: >
+    Kickstarter helps artists, musicians, filmmakers, designers, and other
+    creators find the resources and support they need to make their ideas a
+    reality. To date, tens of thousands of creative projects — big and small
+    — have come to life with the support of the Kickstarter community.
   rails_info:
     description: All of Kickstarter runs on a single Rails monolith.
 
