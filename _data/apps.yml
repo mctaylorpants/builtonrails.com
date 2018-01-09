@@ -1,21 +1,17 @@
+# Featured apps (will be shown in the order they appear here)
+# Don't forget to set `featured: true`
 - name: Kickstarter
   featured: true
   url: https://kickstarter.com
-  logo_url: logo.png
+  logo_url: https://pbs.twimg.com/profile_images/930810738343600128/SjHF8zs2_400x400.jpg
   rails_info:
     description: All of Kickstarter runs on a single Rails monolith.
 
-- name: Basecamp
-  url: https://basecamp.com/
-  logo_url: logo.png
-  business_description: >
-    Basecamp organizes your communication, projects, and client
-    work together so you have a central source of truth.
-  rails_info:
-    description: All of Basecamp runs on a single Rails monolith.
-
+# All other apps will be displayed alphabetically
 - name: Shopify
+  featured: true
   url: https://shopify.com
+  logo_url: https://pbs.twimg.com/profile_images/902172707340652544/33NLl2Pg_400x400.jpg
   business_description: >
     The ecommerce platform made for you. Whether you sell online, on
     social media, in store, or out of the trunk of your car, Shopify
@@ -25,9 +21,27 @@
     description: >
       Shopify's core application is built on Rails.
 
+- name: Procore
+  url: https://www.procore.com/
+  logo_url: https://pbs.twimg.com/profile_images/867864566360944640/b6hAqbtb_400x400.jpg
+  business_description: >
+    The world's number one most widely used construction management software. 
+  rails_info:
+    description: >
+      Procore's core application is built on Rails.
+
+- name: Basecamp
+  url: https://basecamp.com/
+  logo_url: https://pbs.twimg.com/profile_images/647506462579646464/6X2Iy2s8_400x400.png
+  business_description: >
+    Basecamp organizes your communication, projects, and client
+    work together so you have a central source of truth.
+  rails_info:
+    description: All of Basecamp runs on a single Rails monolith.
+
 - name: Unbounce
   url: https://unbounce.com
-  logo_url: logo.png
+  logo_url: https://pbs.twimg.com/profile_images/522464407838679040/GEI0oMKZ_400x400.png
   business_description: >
     Build landing pages fast, get more conversions. Unbounce gives
     you the tools to not only build custom landing pages, but also
@@ -39,7 +53,7 @@
 
 - name: GitHub
   url: https://github.com
-  logo_url: logo.png
+  logo_url: https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ_400x400.png
   business_description: >
     GitHub is a development platform inspired by the way you work.
     From open source to business, you can host and review code, manage
@@ -50,6 +64,7 @@
 
 - name: Intercom
   url: https://intercom.io
+  logo_url: https://pbs.twimg.com/profile_images/892135038510288897/dZSWXc8__400x400.jpg
   business_description: >
     A new and better way to acquire, engage and retain customers.
     Modern products for sales, marketing and support to connect with
