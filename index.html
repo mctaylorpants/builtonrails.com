@@ -2,37 +2,13 @@
 layout: default
 ---
 
+{% assign featured_apps = site.data.apps | where_exp: "app", "app.featured == true" %}
+{% for app in featured_apps %}
+  {% include app.html data=app %}
+{% endfor %}
+
 {% assign apps = site.data.apps | where_exp: "app", "app.featured == nil" | sort: 'name' %}
 {% for app in apps %}
-  <article class="media">
-    <figure class="media-left">
-      <p class="image is-64x64 is-hidden-tablet">
-        <img src="https://bulma.io/images/placeholders/128x128.png">
-      </p>
-      <p class="image is-128x128 is-hidden-mobile">
-        <img src="https://bulma.io/images/placeholders/128x128.png">
-      </p>
-    </figure>
-    <div class="media-content">
-      <div class="content">
-        <p>
-          <strong><a href="{{ app.url }}">{{ app.name }}</a></strong>
-          <small class="text-gray">
-            uses Rails
-
-            {% if app.rails_info.version %}
-              {{ app.rails_info.version }}
-            {% endif %}
-          </small>
-        </p>
-        <p>
-          <em>{{ app.business_description }}</em>
-        </p>
-        <p>
-          {{ app.rails_info.description }}
-        </p>
-      </div>
-    </div>
-  </article>
+  {% include app.html data=app %}
 {% endfor %}
 

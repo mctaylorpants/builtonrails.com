@@ -1,0 +1,33 @@
+{% assign app = include.data %}
+{% assign logo = app.logo_url | default: "https://bulma.io/images/placeholders/128x128.png" %}
+
+<article class="media">
+  <figure class="media-left">
+    <p class="image is-64x64 is-hidden-tablet">
+      <img src="{{ logo }}">
+    </p>
+    <p class="image is-128x128 is-hidden-mobile">
+      <img src="{{ logo }}">
+    </p>
+  </figure>
+  <div class="media-content">
+    <div class="content">
+      <p>
+        <strong><a href="{{ app.url }}">{{ app.name }}</a></strong>
+        <small class="text-gray">
+          uses Rails
+
+          {% if app.rails_info.version %}
+            {{ app.rails_info.version }}
+          {% endif %}
+        </small>
+      </p>
+      <p>
+        <em>{{ app.business_description }}</em>
+      </p>
+      <p>
+        {{ app.rails_info.description }}
+      </p>
+    </div>
+  </div>
+</article>

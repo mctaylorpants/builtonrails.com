@@ -5,6 +5,7 @@ $text-gray: rgba(158, 158, 158, 1);
 $text-blue: rgba(8, 170, 206, 1);
 $text-hover: rgba(10, 211, 255, 1);
 $red: rgba(195, 151, 159, 1);
+$dark-green: rgba(2, 60, 64, 1);
 
 a {
   color: $text-blue;
@@ -23,15 +24,20 @@ a:hover {
 }
 
 .hero-style {
-  color: white;
+  color: $dark-green;
   background-color: $text-hover;
 
   h2 {
-    color: white;
+    color: $dark-green;
   }
 
   a {
-    color: rgba(67, 101, 103, 1);
+    color: $dark-green;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: lighten($dark-green, 10%)
   }
 }
 
