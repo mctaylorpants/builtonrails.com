@@ -26,6 +26,16 @@
     description: >
       Shopify's core application is built on Rails.
 
+- name: Retail Zipline
+  url: https://retailzipline.com/
+  logo_url: https://pbs.twimg.com/profile_images/857402365292326914/h_9D0Qwg_400x400.jpg
+  business_description: >
+    A SaaS solution that empowers any retailer to engage employees and achieve higher store compliance.
+  rails_info:
+    version: 5
+    description: >
+      All of Retail Zipline runs on a single Rails monolith.
+
 - name: Procore
   url: https://www.procore.com/
   logo_url: https://pbs.twimg.com/profile_images/867864566360944640/b6hAqbtb_400x400.jpg
