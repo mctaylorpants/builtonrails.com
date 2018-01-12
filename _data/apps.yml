@@ -10,7 +10,7 @@
     reality. To date, tens of thousands of creative projects — big and small
     — have come to life with the support of the Kickstarter community.
   rails_info:
-    description: All of Kickstarter runs on a single Rails monolith.
+    description: Kickstarter's core application and payment service are built with Rails.
 
 # All other apps will be displayed alphabetically
 - name: Shopify
