@@ -1,0 +1,9 @@
+# Fill out this block and copy it into _data/apps.yml
+- name: Your Site
+  url: # URL to your company's site (not necessarily the URL of the Rails app)
+  logo_url: # URL to your logo. Ideally 400x400
+  business_description: >
+    # A brief 1-2 sentence description of your business
+  rails_info:
+    description: >
+      # A brief 1-2 sentence description of how your business uses Rails
