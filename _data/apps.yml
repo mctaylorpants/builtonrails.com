@@ -1,5 +1,17 @@
 # Featured apps (will be shown in the order they appear here)
 # Don't forget to set `featured: true`
+- name: Netflix
+  featured: true
+  url: https://netflix.com
+  logo_url: https://pbs.twimg.com/profile_images/744949842720391168/wuzyVTTX_400x400.jpg
+  business_description: >
+    Netflix is a streaming service that allows our customers to watch a wide variety of
+    award-winning TV shows, movies, documentaries and more on thousands of Internet-connected devices.
+  rails_info:
+    description: >
+      Netflix's Studio Acquisition Engineering team builds applications used by content
+      buyers to discover, evaluate and procure Netflix Original content.
+
 - name: Kickstarter
   featured: true
   url: https://kickstarter.com
