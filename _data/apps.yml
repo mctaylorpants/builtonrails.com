@@ -88,6 +88,15 @@
       <a href="https://gitlab.com/gitlab-org/gitlab-ce/" target="_new">
         GitLab Community Edition</a>.
 
+- name: Goodbits
+  url: https://goodbits.io/
+  logo_url: https://pbs.twimg.com/profile_images/857290326133792768/bcAOFTRQ_400x400.jpg
+  business_description: >
+    Build great curated email newsletters in minutes. Collect content from the web and from popular applications such as Slack, Zapier and Buffer.
+  rails_info:
+    description: >
+      Goodbits runs entirely on Rails.
+
 - name: Intercom
   url: https://intercom.io
   logo_url: https://pbs.twimg.com/profile_images/892135038510288897/dZSWXc8__400x400.jpg
