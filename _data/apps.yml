@@ -45,38 +45,6 @@
       Airbnb's payment stack is written in Rails.
 
 # All other apps will be displayed alphabetically
-- name: Shopify
-  featured: true
-  url: https://shopify.com
-  logo_url: https://pbs.twimg.com/profile_images/902172707340652544/33NLl2Pg_400x400.jpg
-  business_description: >
-    The ecommerce platform made for you. Whether you sell online, on
-    social media, in store, or out of the trunk of your car, Shopify
-    has you covered.
-  rails_info:
-    version: 5
-    description: >
-      Shopify's core application is built on Rails.
-
-- name: Retail Zipline
-  url: https://retailzipline.com/
-  logo_url: https://pbs.twimg.com/profile_images/857402365292326914/h_9D0Qwg_400x400.jpg
-  business_description: >
-    A SaaS solution that empowers any retailer to engage employees and achieve higher store compliance.
-  rails_info:
-    version: 5
-    description: >
-      All of Retail Zipline runs on a single Rails monolith.
-
-- name: Procore
-  url: https://www.procore.com/
-  logo_url: https://pbs.twimg.com/profile_images/867864566360944640/b6hAqbtb_400x400.jpg
-  business_description: >
-    The world's number one most widely used construction management software. 
-  rails_info:
-    description: >
-      Procore's core application is built on Rails.
-
 - name: Basecamp
   url: https://basecamp.com/
   logo_url: https://pbs.twimg.com/profile_images/647506462579646464/6X2Iy2s8_400x400.png
@@ -86,17 +54,16 @@
   rails_info:
     description: All of Basecamp runs on a single Rails monolith.
 
-- name: Unbounce
-  url: https://unbounce.com
-  logo_url: https://pbs.twimg.com/profile_images/522464407838679040/GEI0oMKZ_400x400.png
+- name: Clio
+  url: https://www.clio.com/
+  logo_url: https://pbs.twimg.com/profile_images/596091031734517760/vv43kG57_400x400.jpg
   business_description: >
-    Build landing pages fast, get more conversions. Unbounce gives
-    you the tools to not only build custom landing pages, but also
-    get more conversions on your website.
+    We’re transforming how law firms are run. Spend less time on administrative tasks
+    and more time with clients—using the most powerful, easy-to-use legal practice
+    management software.
   rails_info:
-    version: 4.2.8
     description: >
-      Used for the customer portal and backoffice management.
+      Clio's core app runs on Rails.
 
 - name: GitHub
   url: https://github.com
@@ -119,8 +86,16 @@
     description: >
       GitLab's core application is written in Rails, and is open-sourced as
       <a href="https://gitlab.com/gitlab-org/gitlab-ce/" target="_new">
-        GitLab Community Edition
-      </a>.
+        GitLab Community Edition</a>.
+
+- name: Goodbits
+  url: https://goodbits.io/
+  logo_url: https://pbs.twimg.com/profile_images/857290326133792768/bcAOFTRQ_400x400.jpg
+  business_description: >
+    Build great curated email newsletters in minutes. Collect content from the web and from popular applications such as Slack, Zapier and Buffer.
+  rails_info:
+    description: >
+      Goodbits runs entirely on Rails.
 
 - name: Intercom
   url: https://intercom.io
@@ -134,16 +109,14 @@
       The core Intercom product is a Ruby on Rails application with an
       Ember.js frontend.
 
-- name: Clio
-  url: https://www.clio.com/
-  logo_url: https://pbs.twimg.com/profile_images/596091031734517760/vv43kG57_400x400.jpg
+- name: Procore
+  url: https://www.procore.com/
+  logo_url: https://pbs.twimg.com/profile_images/867864566360944640/b6hAqbtb_400x400.jpg
   business_description: >
-    We’re transforming how law firms are run. Spend less time on administrative tasks
-    and more time with clients—using the most powerful, easy-to-use legal practice
-    management software.
+    The world's number one most widely used construction management software. 
   rails_info:
     description: >
-      Clio's core app runs on Rails.
+      Procore's core application is built on Rails.
 
 - name: Real Estate Wire
   url: https://www.rew.ca
@@ -153,3 +126,38 @@
   rails_info:
     description: >
       The core app and some key support tooling are built with Rails.
+
+- name: Retail Zipline
+  url: https://retailzipline.com/
+  logo_url: https://pbs.twimg.com/profile_images/857402365292326914/h_9D0Qwg_400x400.jpg
+  business_description: >
+    A SaaS solution that empowers any retailer to engage employees and achieve higher store compliance.
+  rails_info:
+    version: 5
+    description: >
+      All of Retail Zipline runs on a single Rails monolith.
+
+- name: Shopify
+  featured: true
+  url: https://shopify.com
+  logo_url: https://pbs.twimg.com/profile_images/902172707340652544/33NLl2Pg_400x400.jpg
+  business_description: >
+    The ecommerce platform made for you. Whether you sell online, on
+    social media, in store, or out of the trunk of your car, Shopify
+    has you covered.
+  rails_info:
+    version: 5
+    description: >
+      Shopify's core application is built on Rails.
+
+- name: Unbounce
+  url: https://unbounce.com
+  logo_url: https://pbs.twimg.com/profile_images/522464407838679040/GEI0oMKZ_400x400.png
+  business_description: >
+    Build landing pages fast, get more conversions. Unbounce gives
+    you the tools to not only build custom landing pages, but also
+    get more conversions on your website.
+  rails_info:
+    version: 4.2.8
+    description: >
+      Used for the customer portal and backoffice management.
