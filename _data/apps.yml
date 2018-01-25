@@ -144,3 +144,12 @@
   rails_info:
     description: >
       Clio's core app runs on Rails.
+
+- name: Real Estate Wire
+  url: https://www.rew.ca
+  logo_url: https://d3ljd161w9lywl.cloudfront.net/assets/logos/rew-logo-79b176c304daf524d833552c87540f06fc8489bc02e7c5c6419db23b158be8ed.svg
+  business_description: >
+    Our mission is to be the most comprehensive destination for all things real estate, as well as help create the connections that bring the home ownership dream to life.    
+  rails_info:
+    description: >
+      The core app and some key support tooling are built with Rails.
