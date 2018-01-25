@@ -25,7 +25,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 exclude:
   - README.md
-  - scripts/
+  - CONTRIBUTING.md
+  - TODO.md
+  - serve.sh
+  - deploy.sh
+  - Gemfile
+  - Gemfile.lock
 
 # Build settings
 markdown: kramdown
