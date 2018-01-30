@@ -52,5 +52,9 @@ a:hover {
 
 .is-vertically-centered {
   display: flex;
+
+  img {
+    align-self: center;
+  }
 }
 
