@@ -45,69 +45,15 @@
       Airbnb's payment stack is written in Rails.
 
 # All other apps will be displayed alphabetically
-- name: Basecamp
-  url: https://basecamp.com/
-  logo_url: https://pbs.twimg.com/profile_images/647506462579646464/6X2Iy2s8_400x400.png
-  business_description: >
-    Basecamp organizes your communication, projects, and client
-    work together so you have a central source of truth.
-  rails_info:
-    description: All of Basecamp runs on a single Rails monolith.
 
-- name: Clio
-  url: https://www.clio.com/
-  logo_url: https://pbs.twimg.com/profile_images/596091031734517760/vv43kG57_400x400.jpg
+- name: 500px
+  url: https://500px.com
+  logo_url: https://pbs.twimg.com/profile_images/864200552506208256/wdGxW1ko_400x400.jpg
   business_description: >
-    We’re transforming how law firms are run. Spend less time on administrative tasks
-    and more time with clients—using the most powerful, easy-to-use legal practice
-    management software.
+    A community for passionate photographers everywhere to connect, get inspired and grow their skills.
   rails_info:
     description: >
-      Clio's core app runs on Rails.
-
-- name: GitHub
-  url: https://github.com
-  logo_url: https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ_400x400.png
-  business_description: >
-    GitHub is a development platform inspired by the way you work.
-    From open source to business, you can host and review code, manage
-    projects, and build software alongside millions of other developers.
-  rails_info:
-    description: >
-      GitHub's primary application runs on Rails.
-
-- name: GitLab
-  url: https://gitlab.com
-  logo_url: https://assets.gitlab-static.net/uploads/-/system/project/avatar/13083/logo-extra-whitespace.png
-  business_description: >
-    Create value faster with a single application for the whole software development and
-    operations lifecycle.
-  rails_info:
-    description: >
-      GitLab's core application is written in Rails, and is open-sourced as
-      <a href="https://gitlab.com/gitlab-org/gitlab-ce/" target="_new">
-        GitLab Community Edition</a>.
-
-- name: Goodbits
-  url: https://goodbits.io/
-  logo_url: https://pbs.twimg.com/profile_images/857290326133792768/bcAOFTRQ_400x400.jpg
-  business_description: >
-    Build great curated email newsletters in minutes. Collect content from the web and from popular applications such as Slack, Zapier and Buffer.
-  rails_info:
-    description: >
-      Goodbits runs entirely on Rails.
-
-- name: Intercom
-  url: https://intercom.io
-  logo_url: https://pbs.twimg.com/profile_images/892135038510288897/dZSWXc8__400x400.jpg
-  business_description: >
-    A new and better way to acquire, engage and retain customers.
-    Modern products for sales, marketing and support to connect with
-    customers and help you grow faster.
-  rails_info:
-    description: >
-      The core Intercom product is a Ruby on Rails application with an
-      Ember.js frontend.
+      500px's core application is built on Rails.
 
 - name: Procore
   url: https://www.procore.com/
