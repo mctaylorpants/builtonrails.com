@@ -127,6 +127,15 @@
     description: >
       The core app and some key support tooling are built with Rails.
 
+- name: Recurly
+  url: https://recurly.com
+  logo_url: https://pbs.twimg.com/profile_images/740644720787881984/IPLQ9wlr_400x400.jpg
+  business_description: >
+    The subscription management platform delivering unrivaled results to smart brands worldwide.
+  rails_info:
+    description: >
+      Recurly's core platform is built on Rails.
+
 - name: Retail Zipline
   url: https://retailzipline.com/
   logo_url: https://pbs.twimg.com/profile_images/857402365292326914/h_9D0Qwg_400x400.jpg
