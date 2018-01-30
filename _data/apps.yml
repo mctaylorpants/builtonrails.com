@@ -122,8 +122,8 @@
   logo_url: http://pt-mktg.s3.amazonaws.com/assets/ProTendersLogoS.png
   business_description: >
     ProTenders enables construction companies of all sizes and categories to connect, 
-		identify the right partners for each job, find the right opportunities and 
-		streamline their bidding process. ProTenders builds trust in the construction industry.
+    identify the right partners for each job, find the right opportunities and 
+    streamline their bidding process. ProTenders builds trust in the construction industry.
   rails_info:
     version: 5
     description: >
