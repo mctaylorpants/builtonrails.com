@@ -128,3 +128,13 @@
     version: 5
     description: >
       Used throughout the app and backend services.
+
+- name: Lobsters
+  url: https://lobste.rs
+  logo_url: https://pbs.twimg.com/profile_images/917080328400814080/NVFfU2GQ_400x400.jpg
+  business_description: >
+    Lobsters is a technology-focused community centered around link aggregation and discussion. Launched on July 3rd, 2012, it was created by joshua stein with some specific design goals in mind to avoid problems faced by other link aggregation sites.
+  rails_info:
+    version: 5.1
+    description: >
+      Rails code running the lobste.rs link aggregation site
