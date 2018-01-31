@@ -137,4 +137,4 @@
   rails_info:
     version: 5.1
     description: >
-      Rails code running the lobste.rs link aggregation site
+      Rails runs the lobste.rs link aggregation site.
