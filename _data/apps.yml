@@ -130,7 +130,7 @@
 
 - name: ProTenders
   url: https://www.protenders.com
-  logo_url: http://pt-mktg.s3.amazonaws.com/assets/ProTendersLogoS.png
+  logo_url: https://pt-mktg.s3.amazonaws.com/assets/ProTendersLogoS.png
   business_description: >
     ProTenders enables construction companies of all sizes and categories to connect, 
     identify the right partners for each job, find the right opportunities and 
