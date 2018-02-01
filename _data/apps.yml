@@ -32,6 +32,7 @@
     Book unique homes and experiences all over the world.
   rails_info:
     description: >
+      Airbnb's payment stack is written in Rails.
 
 - name: Basecamp
   featured: true
