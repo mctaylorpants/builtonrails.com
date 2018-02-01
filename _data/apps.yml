@@ -111,7 +111,7 @@
     social media, in store, or out of the trunk of your car, Shopify
     has you covered.
   rails_info:
-    version: 5
+    version: 5.1
     description: >
       Shopify's core application is built on Rails.
 
