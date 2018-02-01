@@ -41,8 +41,8 @@
     Basecamp organizes your communication, projects, and client
     work together so you have a central source of truth.
   rails_info:
-    rails_version: 5
-    description: All of Basecamp runs on a single Rails monolith.     Airbnb's payment stack is written in Rails.
+    version: 5
+    description: All of Basecamp runs on a single Rails monolith.
 
 - name: Hulu
   featured: true
