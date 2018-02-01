@@ -24,6 +24,26 @@
   rails_info:
     description: Kickstarter's core application and payment service are built with Rails.
 
+- name: Airbnb
+  featured: true
+  url: https://www.airbnb.com
+  logo_url: https://pbs.twimg.com/profile_images/932788822693232640/cxp6bC5r_400x400.jpg
+  business_description: >
+    Book unique homes and experiences all over the world.
+  rails_info:
+    description: >
+
+- name: Basecamp
+  featured: true
+  url: https://basecamp.com/
+  logo_url: https://pbs.twimg.com/profile_images/647506462579646464/6X2Iy2s8_400x400.png
+  business_description: >
+    Basecamp organizes your communication, projects, and client
+    work together so you have a central source of truth.
+  rails_info:
+    rails_version: 5
+    description: All of Basecamp runs on a single Rails monolith.     Airbnb's payment stack is written in Rails.
+
 - name: Hulu
   featured: true
   url: https://www.hulu.com
@@ -33,16 +53,6 @@
   rails_info:
     description: >
      Hulu's core app is built on Rails.
-
-- name: Airbnb
-  featured: true
-  url: https://www.airbnb.com
-  logo_url: https://pbs.twimg.com/profile_images/932788822693232640/cxp6bC5r_400x400.jpg
-  business_description: >
-    Book unique homes and experiences all over the world.
-  rails_info:
-    description: >
-      Airbnb's payment stack is written in Rails.
 
 # All other apps will be displayed alphabetically
 
