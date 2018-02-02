@@ -1,4 +1,8 @@
 set -e
+echo "Pushing to master..."
+
+git push origin head
+
 echo "Deploying builtonrails..."
 
 SOURCE=./
