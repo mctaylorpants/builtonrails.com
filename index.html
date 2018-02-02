@@ -2,13 +2,20 @@
 layout: default
 ---
 
-{% assign featured_apps = site.data.apps | where_exp: "app", "app.featured == true" %}
-{% for app in featured_apps %}
-  {% include app.html data=app %}
-{% endfor %}
+<section class="section featured-sites">
+  <div class="container">
+    {% assign featured_apps = site.data.apps | where_exp: "app", "app.featured == true" %}
+    {% for app in featured_apps %}
+      {% include app.html data=app %}
+    {% endfor %}
+  </div>
+</section>
 
-{% assign apps = site.data.apps | where_exp: "app", "app.featured == nil" | sort: 'name' %}
-{% for app in apps %}
-  {% include app.html data=app %}
-{% endfor %}
-
+<section class="section">
+  <div class="container">
+    {% assign apps = site.data.apps | where_exp: "app", "app.featured == nil" | sort: 'name' %}
+    {% for app in apps %}
+      {% include app.html data=app %}
+    {% endfor %}
+  </div>
+</section>
