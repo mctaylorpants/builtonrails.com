@@ -1,6 +1,7 @@
 ## Built On Rails
 
 **Q**: What do you do when someone asks, "does anybody use Rails anymore?"
+
 **A**: Send then to [builtonrails.com](http://builtonrails.com)!
 
 [builtonrails.com](http://builtonrails.com) is an effort to collect a definitive list of the companies and applications that rely on Rails every day.
@@ -14,5 +15,3 @@ We also welcome other improvements and fixes to the site itself. Please submit a
 
 ### Development
 Start a development server with `./serve.sh` or `bundle exec jekyll serve`.
-
-Start a deploy with `./deploy.sh`.
