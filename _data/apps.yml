@@ -55,6 +55,19 @@
     description: >
      Hulu's core app is built on Rails.
 
+- name: Shopify
+  featured: true
+  url: https://shopify.com
+  logo_url: https://pbs.twimg.com/profile_images/902172707340652544/33NLl2Pg_400x400.jpg
+  business_description: >
+    The ecommerce platform made for you. Whether you sell online, on
+    social media, in store, or out of the trunk of your car, Shopify
+    has you covered.
+  rails_info:
+    version: 5.1
+    description: >
+      Shopify's core application is built on Rails.
+
 # All other apps will be displayed alphabetically
 
 - name: 500px
@@ -102,19 +115,6 @@
     version: 5
     description: >
       All of Retail Zipline runs on a single Rails monolith.
-
-- name: Shopify
-  featured: true
-  url: https://shopify.com
-  logo_url: https://pbs.twimg.com/profile_images/902172707340652544/33NLl2Pg_400x400.jpg
-  business_description: >
-    The ecommerce platform made for you. Whether you sell online, on
-    social media, in store, or out of the trunk of your car, Shopify
-    has you covered.
-  rails_info:
-    version: 5.1
-    description: >
-      Shopify's core application is built on Rails.
 
 - name: Unbounce
   url: https://unbounce.com
