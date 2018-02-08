@@ -203,3 +203,14 @@
   rails_info:
     description: >
       The core Intercom product is a Ruby on Rails application with an Ember.js frontend.
+
+- name: Discourse
+  url: https://www.discourse.org
+  logo_url: https://raw.githubusercontent.com/discourse/discourse/master/images/discourse.png
+  business_description: >
+    Discourse is the 100% open source discussion platform built for the next decade of the Internet. Use it as a mailing list,
+    discussion forum, long-form chat room, and more!
+  rails_info:
+    version: 5.1
+    description: >
+      The server side of Discourse is Ruby on Rails backed by a Postgres database and Redis cache.
