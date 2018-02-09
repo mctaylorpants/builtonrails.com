@@ -214,3 +214,16 @@
     version: 5.1
     description: >
       The server side of Discourse is Ruby on Rails backed by a Postgres database and Redis cache.
+
+- name: HatchBox
+  url: https://www.hatchbox.io/
+  logo_url: https://www.hatchbox.io/assets/logo-black-32de8c4922b4e839aeff8020f1c40fa26e0e8e2a29e0abcf40fdfb074eaef124.svg
+  business_description: >
+    Hatch is way for you to deploy Rails apps to your own servers at places like Digital Ocean as easily as Heroku.
+    We'll take care of installing Ruby, Nginx, PostgreSQL, Redis and more and even manage environment variables and
+    all the other little details for you.
+  rails_info:
+    version: 5
+    description: >
+      HatchBox uses Rails with ActionCable to orchestrate deployment of servers with real-time
+      monitoring.
