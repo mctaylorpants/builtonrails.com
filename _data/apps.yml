@@ -227,3 +227,14 @@
     description: >
       HatchBox uses Rails with ActionCable to orchestrate deployment of servers with real-time
       monitoring.
+
+- name: Konfeo
+  url: https://www.konfeo.com/en/
+  logo_url: https://www.konfeo.com/wp-content/uploads/2018/02/Konfeo.com-icon.png
+  business_description: >
+    Konfeo is online event registration system for organizing conferences, sports or music events or smaller activities
+    such as a professional courses or workshops
+  rails_info:
+    description: >
+      We have several Rails projects to run Konfeo. The main app is our frontend for attendees and backend for organizers.
+      Other projects are our business management app and a special app for attendees check-in.
