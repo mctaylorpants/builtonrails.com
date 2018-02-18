@@ -2,6 +2,7 @@ set -e
 echo "Pushing to master..."
 
 git push origin head
+git push heroku master
 
 echo "Deploying builtonrails..."
 
