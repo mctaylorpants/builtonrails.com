@@ -238,3 +238,12 @@
     description: >
       We have several Rails projects to run Konfeo. The main app is our frontend for attendees and backend for organizers.
       Other projects are our business management app and a special app for attendees check-in.
+
+- name: Zendesk
+  url: https://www.zendesk.com
+  logo_url: https://pbs.twimg.com/profile_images/791277935311200257/7OhDQq9H_400x400.jpg
+  business_description: >
+    Zendesk builds software for better customer relationships.
+  rails_info:
+    description: >
+      Zendesk's core application is built with Rails.
