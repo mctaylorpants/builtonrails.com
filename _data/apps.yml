@@ -254,4 +254,4 @@ name: Bonusly
 -  business_description: >	
 -    Bonusly creates workplace happiness through 360 degree microbonuses	
 -  rails_info:	
--    description: >
+-    description: Bonusly's core application runs on Rails, and uses MongoDB for a datastore (utilizing Mongoid as the ODM).
