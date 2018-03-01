@@ -247,3 +247,19 @@
   rails_info:
     description: >
       Zendesk's core application is built with Rails.
+
+- name: Bonusly
+  url: https://bonus.ly/
+  logo_url: http://s3.amazonaws.com/totemv2-production/totem/assets/logos/attachments/2791/original/Bonusly_Logo_Symbol_rgb_600_547.png?1482276053
+  business_description: >
+    Bonusly creates workplace happiness through 360 degree microbonuses
+  rails_info:
+    description: >
+
+- name: Reinteractive
+  url: https://reinteractive.com/
+  logo_url: https://d2c796fw38dva6.cloudfront.net/assets/press/reinteractive_Logo-v-web-119a52ac68e4bf6ce0bbcd262831a2cc.png
+  business_description: >
+    We create and support web and mobile Ruby on Rails and Javascript apps that return real value for our clients. It's a focus that drives our entire company and we are proud to be Australia’s largest Ruby on Rails focused development shop.
+  rails_info:
+    description: >
