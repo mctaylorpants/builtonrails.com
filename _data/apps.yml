@@ -255,3 +255,13 @@
     Bonusly creates workplace happiness through 360 degree microbonuses
   rails_info:
     description: Bonusly's core application runs on Rails, and uses MongoDB for a datastore (utilizing Mongoid as the ODM).
+
+- name: SwingTradeBot
+  url: https://swingtradebot.com
+  logo_url: https://s3.amazonaws.com/swingtradebot/blog/SwingTradeBot_Logo_Robot_Only.png
+  business_description: >
+    SwingTradeBot provides a suite of tools to help stock traders manage their trading methodologies. Those tools include technical analysis signals, stock screens, routine trackers, and smart watchlists & portfolios.
+  rails_info:
+    version: 5
+    description: >
+      SwingTradeBot's core application is powered by Rails and a PostgreSQL database.
