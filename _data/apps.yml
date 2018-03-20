@@ -42,7 +42,7 @@
     Basecamp organizes your communication, projects, and client
     work together so you have a central source of truth.
   rails_info:
-    version: 5
+    version: 5.2
     description: All of Basecamp runs on a single Rails monolith.
 
 - name: Hulu
@@ -64,7 +64,7 @@
     social media, in store, or out of the trunk of your car, Shopify
     has you covered.
   rails_info:
-    version: 5.1
+    version: 5.2
     description: >
       Shopify's core application is built on Rails.
 
