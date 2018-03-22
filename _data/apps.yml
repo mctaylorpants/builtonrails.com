@@ -250,7 +250,7 @@
 
 - name: Bonusly
   url: https://bonus.ly/
-  logo_url: http://s3.amazonaws.com/totemv2-production/totem/assets/logos/attachments/2791/original/Bonusly_Logo_Symbol_rgb_600_547.png?1482276053
+  logo_url: https://s3.amazonaws.com/totemv2-production/totem/assets/logos/attachments/2791/original/Bonusly_Logo_Symbol_rgb_600_547.png?1482276053
   business_description: >
     Bonusly creates workplace happiness through 360 degree microbonuses
   rails_info:
