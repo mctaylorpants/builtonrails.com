@@ -83,7 +83,7 @@
   url: https://www.procore.com/
   logo_url: https://pbs.twimg.com/profile_images/867864566360944640/b6hAqbtb_400x400.jpg
   business_description: >
-    The world's number one most widely used construction management software. 
+    The world's number one most widely used construction management software.
   rails_info:
     description: >
       Procore's core application is built on Rails.
@@ -92,7 +92,7 @@
   url: https://www.rew.ca
   logo_url: https://d3ljd161w9lywl.cloudfront.net/assets/logos/rew-logo-79b176c304daf524d833552c87540f06fc8489bc02e7c5c6419db23b158be8ed.svg
   business_description: >
-    Our mission is to be the most comprehensive destination for all things real estate, as well as help create the connections that bring the home ownership dream to life.    
+    Our mission is to be the most comprehensive destination for all things real estate, as well as help create the connections that bring the home ownership dream to life.
   rails_info:
     description: >
       The core app and some key support tooling are built with Rails.
@@ -132,8 +132,8 @@
   url: https://www.protenders.com
   logo_url: https://pt-mktg.s3.amazonaws.com/assets/ProTendersLogoS.png
   business_description: >
-    ProTenders enables construction companies of all sizes and categories to connect, 
-    identify the right partners for each job, find the right opportunities and 
+    ProTenders enables construction companies of all sizes and categories to connect,
+    identify the right partners for each job, find the right opportunities and
     streamline their bidding process. ProTenders builds trust in the construction industry.
   rails_info:
     version: 5
@@ -265,3 +265,13 @@
     version: 5
     description: >
       SwingTradeBot's core application is powered by Rails and a PostgreSQL database.
+
+- name: Podia
+  url: https://www.podia.com
+  logo_url: https://www.dropbox.com/s/srkqnjlm2xgzopu/podia-wm-purple-medium.png
+  business_description: >
+    Sell Memberships, Online Courses, and Digital Downloads to your audience. Podia is the easiest way to earn a living from your passion.
+  rails_info:
+    version: 5
+    description: >
+      Podia's core application is built with Rails.
