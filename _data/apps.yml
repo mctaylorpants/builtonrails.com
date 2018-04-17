@@ -48,7 +48,7 @@
 - name: Hulu
   featured: true
   url: https://www.hulu.com
-  logo_url: https://pbs.twimg.com/profile_images/950218374872780801/3cA-gtcN_400x400.jpg
+  logo_url: https://pbs.twimg.com/profile_images/977556054316740610/nxa4lEyS_400x400.jpg
   business_description: >
     Watch premium original series, full seasons of hit shows, current episodes, movies and more.
   rails_info:
@@ -268,7 +268,7 @@
 
 - name: Podia
   url: https://www.podia.com
-  logo_url: https://www.dropbox.com/s/srkqnjlm2xgzopu/podia-wm-purple-medium.png
+  logo_url: https://pbs.twimg.com/profile_images/938423381891850240/OSO-VUJY_400x400.jpg
   business_description: >
     Sell Memberships, Online Courses, and Digital Downloads to your audience. Podia is the easiest way to earn a living from your passion.
   rails_info:

@@ -32,6 +32,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - bin/
+  - spec/
 
 # Build settings
 markdown: kramdown
