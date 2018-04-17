@@ -272,6 +272,6 @@
   business_description: >
     Sell Memberships, Online Courses, and Digital Downloads to your audience. Podia is the easiest way to earn a living from your passion.
   rails_info:
-    version: 5
+    version: 5.2
     description: >
       Podia's core application is built with Rails.
