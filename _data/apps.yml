@@ -12,6 +12,16 @@
       Netflix's Studio Acquisition Engineering team builds applications used by content
       buyers to discover, evaluate and procure Netflix Original content.
 
+- name: Coinbase
+  featured: true
+  url: https://coinbase.com
+  logo_url: https://pbs.twimg.com/profile_images/987042522051432448/ksXIvkYe_400x400.jpg
+  business_description: >
+    Coinbase is the easiest and most trusted place to buy, sell, and manage your digital currency.
+  rails_info:
+    description: >
+      Coinbase uses Rails to power their API backend.
+
 - name: Kickstarter
   featured: true
   url: https://kickstarter.com
