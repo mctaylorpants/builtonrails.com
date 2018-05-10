@@ -27,8 +27,7 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - TODO.md
-  - serve.sh
-  - deploy.sh
+  - "*.sh"
   - Gemfile
   - Gemfile.lock
   - bin/
