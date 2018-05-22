@@ -285,3 +285,13 @@
     version: 5.2
     description: >
       Podia's core application is built with Rails.
+
+- name: Muna
+  url: https://www.munahq.com
+  logo_url: https://s3-eu-west-1.amazonaws.com/www.munahq.com/www.munahq.com_logo.jpg
+  business_description: >
+    HR tools for the next generation companies. Improve employee onboarding, workforce management and your happiness.
+  rails_info:
+    version: 5.2
+    description: >
+      Muna's main app runs on Rails 5.2 with a PostgreSQL database.
