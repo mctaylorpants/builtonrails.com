@@ -173,7 +173,7 @@
 
 - name: GitHub
   url: https://github.com
-  logo_url: https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ_400x400.png
+  logo_url: https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png
   business_description: >
     GitHub is a development platform inspired by the way you work.
     From open source to business, you can host and review code, manage
