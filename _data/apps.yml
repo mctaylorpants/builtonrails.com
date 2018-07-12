@@ -128,7 +128,7 @@
 
 - name: Unbounce
   url: https://unbounce.com
-  logo_url: https://pbs.twimg.com/profile_images/1004503579497979905/6lUrOMEg_400x400.jpg
+  logo_url: https://user-images.githubusercontent.com/7259082/42645438-d7a3cc04-85b2-11e8-831c-72cc83dbb3e8.jpg
   business_description: >
     Build landing pages fast, get more conversions. Unbounce gives
     you the tools to not only build custom landing pages, but also
@@ -260,7 +260,7 @@
 
 - name: Bonusly
   url: https://bonus.ly/
-  logo_url: https://s3.amazonaws.com/totemv2-production/totem/assets/logos/attachments/2791/original/Bonusly_Logo_Symbol_rgb_600_547.png?1482276053
+  logo_url: https://user-images.githubusercontent.com/7259082/42646017-769d2caa-85b4-11e8-9df0-df9f0565f65c.png
   business_description: >
     Bonusly creates workplace happiness through 360 degree microbonuses
   rails_info:
