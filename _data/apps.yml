@@ -37,7 +37,7 @@
 - name: Airbnb
   featured: true
   url: https://www.airbnb.com
-  logo_url: https://pbs.twimg.com/profile_images/671158644637962240/u4pVfrWv_400x400.jpg
+  logo_url: https://user-images.githubusercontent.com/7259082/52525324-916d8d00-2c5c-11e9-8a14-778074e02d8f.jpg
   business_description: >
     Book unique homes and experiences all over the world.
   rails_info:
