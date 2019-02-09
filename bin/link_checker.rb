@@ -16,8 +16,7 @@ apps.each do |app|
   [url, logo_url].each do |link|
     begin
       print "Checking #{link}..."
-      response = HTTParty.head(link, timeout: TIMEOUT)
-      response = HTTParty.get(link, timeout: TIMEOUT) if response.code == 405 # method not allwoed
+      response = HTTParty.get(link, timeout: TIMEOUT)
       print " #{response.code}\n"
 
       errors << { name: app_name, url: link, code: response.code } if response.code >= 400
