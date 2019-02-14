@@ -2,7 +2,7 @@
 
 **Q**: What do you do when someone asks, "does anybody use Rails anymore?"
 
-**A**: Send then to [builtonrails.com](http://builtonrails.com)!
+**A**: Send them to [builtonrails.com](http://builtonrails.com)!
 
 [builtonrails.com](http://builtonrails.com) is an effort to collect a definitive list of the companies and applications that rely on Rails every day.
 
