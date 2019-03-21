@@ -134,7 +134,7 @@
     you the tools to not only build custom landing pages, but also
     get more conversions on your website.
   rails_info:
-    version: 4.2.8
+    version: 5.2.2.1
     description: >
       Used for the customer portal and backoffice management.
 
