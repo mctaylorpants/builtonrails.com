@@ -82,7 +82,7 @@
 
 - name: 500px
   url: https://500px.com
-  logo_url: https://pbs.twimg.com/profile_images/864200552506208256/wdGxW1ko_400x400.jpg
+  logo_url: https://user-images.githubusercontent.com/7259082/57471806-dcd60e00-7240-11e9-936f-b18abcecbf66.png
   business_description: >
     A community for passionate photographers everywhere to connect, get inspired and grow their skills.
   rails_info:
