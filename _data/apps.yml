@@ -168,6 +168,7 @@
     and more time with clients—using the most powerful, easy-to-use legal practice
     management software.
   rails_info:
+    version: 5.0
     description: >
       Clio's core app runs on Rails.
 
