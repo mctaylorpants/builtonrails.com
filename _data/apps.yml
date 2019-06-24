@@ -15,7 +15,7 @@
 - name: Coinbase
   featured: true
   url: https://coinbase.com
-  logo_url: https://pbs.twimg.com/profile_images/987042522051432448/ksXIvkYe_400x400.jpg
+  logo_url: https://user-images.githubusercontent.com/7259082/60038198-8134d800-9668-11e9-8f33-f47adf6b0811.png
   business_description: >
     Coinbase is the easiest and most trusted place to buy, sell, and manage your digital currency.
   rails_info:
