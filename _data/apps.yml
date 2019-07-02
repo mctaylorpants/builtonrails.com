@@ -25,7 +25,7 @@
 - name: Kickstarter
   featured: true
   url: https://kickstarter.com
-  logo_url: https://pbs.twimg.com/profile_images/1123205125529579523/27j5MC7Q_400x400.png
+  logo_url: https://user-images.githubusercontent.com/7259082/60528510-6df9bc00-9ca9-11e9-9880-c408edfc0fc4.jpg
   business_description: >
     Kickstarter helps artists, musicians, filmmakers, designers, and other
     creators find the resources and support they need to make their ideas a
@@ -252,7 +252,7 @@
 
 - name: Zendesk
   url: https://www.zendesk.com
-  logo_url: https://pbs.twimg.com/profile_images/791277935311200257/7OhDQq9H_400x400.jpg
+  logo_url: https://user-images.githubusercontent.com/7259082/60528508-6c2ff880-9ca9-11e9-9f09-7dd31006c73e.jpg
   business_description: >
     Zendesk builds software for better customer relationships.
   rails_info:
