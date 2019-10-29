@@ -47,12 +47,12 @@ GEM
     minima (2.1.1)
       jekyll (~> 3.3)
     multi_xml (0.6.0)
-    mustermann (1.0.2)
+    mustermann (1.0.3)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.1)
     rack (2.0.7)
-    rack-protection (2.0.1)
+    rack-protection (2.0.7)
       rack
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
@@ -82,12 +82,12 @@ GEM
     sendgrid-ruby (5.2.0)
       ruby_http_client (~> 3.2)
       sinatra (>= 1.4.7, < 3)
-    sinatra (2.0.1)
+    sinatra (2.0.7)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack-protection (= 2.0.7)
       tilt (~> 2.0)
-    tilt (2.0.8)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
