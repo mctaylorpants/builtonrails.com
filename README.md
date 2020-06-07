@@ -1,4 +1,4 @@
-## Built On Rails
+## Built On Rails (Archived)
 
 **Q**: What do you do when someone asks, "does anybody use Rails anymore?"
 
@@ -15,3 +15,9 @@ We also welcome other improvements and fixes to the site itself. Please submit a
 
 ### Development
 Start a development server with `./serve.sh` or `bundle exec jekyll serve`.
+
+---
+
+I've taken this site down for now, since I didn't have the time to give it the attention it deserved. Here's what it looked like:
+
+![builtonrails-com](https://user-images.githubusercontent.com/7259082/83974126-bfd69900-a89f-11ea-9aa2-d4e91f22fbac.png)
